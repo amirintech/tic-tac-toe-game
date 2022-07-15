@@ -28,4 +28,116 @@ html {
 body {
   margin: 0;
   padding: 0;
+  font-size: 1.4rem;
+  letter-spacing: 0.8px;
+  font-family: "Outfit", sans-serif;
 }
+
+/* Typography */
+h1,
+h2,
+h3 {
+  margin: 0 auto;
+}
+
+.heading-lg,
+.heading-md,
+.heading-sm,
+.heading-xsm {
+  font-weight: 700;
+}
+
+.heading-lg {
+  font-size: 4rem;
+  letter-spacing: 2.5px;
+}
+
+.heading-md {
+  font-size: 2.4rem;
+  letter-spacing: 1.5px;
+}
+
+.heading-sm {
+  font-size: 2rem;
+  letter-spacing: 1.25px;
+}
+
+.heading-xsm {
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  padding: 1.6rem;
+  border: 0;
+  outline: none;
+  text-transform: uppercase;
+  border-radius: 15px;
+  color: var(--dark-navy);
+  transition: 0.2s;
+}
+
+.btn--block {
+  width: 100%;
+  max-width: 460px;
+  padding: 2.2rem;
+}
+
+.btn--yellow {
+  background-color: var(--light-yellow);
+  box-shadow: inset 0 -4px 0 #cc8b13;
+}
+
+.btn--yellow.btn--block {
+  box-shadow: inset 0 -8px 0 #cc8b13;
+}
+
+.btn--yellow:hover {
+  background-color: var(--light-yellow-hover);
+}
+
+.btn--blue {
+  background-color: var(--light-blue);
+  box-shadow: inset 0 -4px 0 #118c87;
+}
+
+.btn--blue.btn--block {
+  box-shadow: inset 0 -8px 0 #118c87;
+}
+
+.btn--blue:hover {
+  background-color: var(--light-blue-hover);
+}
+
+.btn--silver {
+  background-color: var(--sliver);
+  box-shadow: inset 0 -4px 0 #6b8997;
+}
+
+.btn--silver.btn--block {
+  box-shadow: inset 0 -8px 0 #6b8997;
+}
+
+.btn--silver:hover {
+  background-color: var(--silver-hover);
+}
+
+.btn--icon {
+  width: 52px;
+  height: 52px;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn .icon {
+  width: 20px;
+  height: 20px;
+}
+
+@media screen and (min-width: 375px) {
+} ;
