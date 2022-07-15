@@ -31,6 +31,7 @@ body {
   font-size: 1.4rem;
   letter-spacing: 0.8px;
   font-family: "Outfit", sans-serif;
+  text-transform: uppercase;
 }
 
 /* Typography */
@@ -139,5 +140,40 @@ h3 {
   height: 20px;
 }
 
-@media screen and (min-width: 375px) {
-} ;
+/* Modal */
+.modal {
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  background-color: var(--semi-dark-navy);
+}
+
+.modal > * {
+  margin: 0 auto;
+}
+
+.modal__description {
+  color: var(--sliver);
+}
+
+.modal__title {
+  color: var(--light-yellow);
+}
+
+.modal--blue .modal__title {
+  color: var(--light-blue);
+}
+
+.modal--silver .modal__title {
+  color: var(--sliver);
+}
+
+.modal__buttons {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
